@@ -63,10 +63,10 @@ main {
 .search-buttons button {
   margin: 0 5px;
   padding: 10px 16px;
-  background-color: #f8f9fa;
-  border: 1px solid #f8f9fa;
+  background-color: #B20000;
+  border: 3px solid #ffff;
   border-radius: 4px;
-  color: #3c4043;
+  color: #ffff;
   cursor: pointer;
 }
 
