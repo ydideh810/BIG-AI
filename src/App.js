@@ -76,7 +76,7 @@ function App() {
       
       <main>
         <img 
-          src={BIZGEN} 
+          src={BIG_AI_Logo} 
           alt="BIZGEN" 
           // className="logo"
         />
