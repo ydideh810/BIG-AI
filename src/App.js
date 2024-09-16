@@ -70,7 +70,7 @@ function App() {
     <div className="app">
       <header>
         <nav>
-          <button className="sign-in-button">Sign in</button>
+          
         </nav>
       </header>
       
