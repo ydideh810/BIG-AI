@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import ReactMarkdown from 'react-markdown';
-import BIG_AI_Logo from './BIG_AI_Logo111.png'
+import BIG_AI_Logo from './biz.png'
 
 const { 
   GoogleGenerativeAI,
