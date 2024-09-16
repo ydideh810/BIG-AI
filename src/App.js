@@ -105,7 +105,7 @@ function App() {
           <a href="#">The AI can make mistakes. Please double-check responses.</a>
         </div>
         <div className="footer-right">
-          <a href="#">Business Idea Generator (BIZGEN) is powered by Google's Gemini</a>
+          <a href="#">BIZGEN is powered by Google's Gemini</a>
         </div>
       </footer>
     </div>
