@@ -76,15 +76,15 @@ function App() {
       
       <main>
         <img 
-          src={BIG_AI_Logo} 
-          alt="BIG_AI_Logo" 
+          src={BIZGEN} 
+          alt="BIZGEN" 
           // className="logo"
         />
         <div className="search-container">
           <input 
             type="text" 
             className="search-input"
-            placeholder="Try 'What business niches are most profitable in Accra?'"
+            placeholder="Try 'What business is most profitable in the city of Toronto?'"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
@@ -94,7 +94,7 @@ function App() {
         </div>
         {searchResult && (
           <div className="generated-result">
-            <h2>BIG AI's Response:</h2>
+            <h2>BIZGEN's Response:</h2>
             <p><ReactMarkdown>{searchResult}</ReactMarkdown></p>
           </div>
         )}
@@ -102,10 +102,10 @@ function App() {
       
       <footer>
         <div className="footer-left">
-          <a href="#">BIG AI can make mistakes. Please double-check responses.</a>
+          <a href="#">The AI can make mistakes. Please double-check responses.</a>
         </div>
         <div className="footer-right">
-          <a href="#">Business Idea Generator (BIG AI) is powered by Google's Gemini</a>
+          <a href="#">Business Idea Generator (BIZGEN) is powered by Google's Gemini</a>
         </div>
       </footer>
     </div>
